@@ -1,0 +1,190 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family:  'Quicksand',Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    color: #4a4a4a;
+}
+p {
+    font-size: 16px;
+    line-height: 180%;
+}
+.container {
+    width: 820px;
+    border-bottom: 1px solid #4a4a4a;
+    padding: 60px 0;
+}
+.container a {
+    text-decoration: underline;
+}
+.container a:hover {
+    opacity: 0.8;
+}
+.container h2.heading-title {
+    padding: 70px 0 80px;
+    font-family: 'Quicksand';
+    text-align: center;
+    font-size: 500%;
+}
+.title {
+    font-size: 250%;
+}
+/*header*/
+header {
+    /* position: fixed; */
+    height: 80px;
+    width: 100%;
+}
+header ul {
+    float: right;
+    margin-right: 60px;
+}
+header li {
+    list-style: none;
+    float: left;
+    padding: 30px 25px;
+}
+header h1 {
+    float: left;
+    padding: 20px 40px;
+}
+.nav {
+    text-decoration: none;
+}
+.nav:link {
+    color: #4a4a4a;
+}
+.nav:hover {
+    opacity: 0.8;
+}
+.nav:visited {
+    color:#4a4a4a;
+}
+.header-icon {
+    position: fixed;
+    right: 0;
+    top: 0;
+    text-align: right;
+    margin: 60px 150px 0;
+    z-index: 101;
+}
+.header-icon:hover {
+    opacity: 0.9;
+}
+/*index.html*/
+dl {
+    font-size: 15px;
+}
+dt {
+    font-weight: bold;
+    font-size: 110%;
+}
+dd {
+    margin-bottom: 5px;
+}
+.main {
+    text-align:center;
+}
+.main img {
+    width:600px;
+}
+.box-1 img {
+    width: 350px;
+    margin: 0;
+}
+.container .box-1{
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+span.caption-tag {
+    display: inline-block;
+    background-color: gold;
+    padding: 0 10px;
+    line-height: 150%;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.caption h3 {
+    margin-bottom: 10px;
+    font-size: 120%;
+    font-weight: bold;
+    font-style: italic;
+}
+.caption-top {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.caption-bottom {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+.caption-right {
+    padding-left: 30px;
+    width: 60%;
+}
+.caption-left {
+    padding-right: 30px;
+    border-right: 1px solid #4a4a4a;
+}
+.caption-left p {
+    margin-bottom: 20px;
+}
+.work-main-img {
+    width:800px;
+    text-align: center;
+}
+.img-lala {
+    width: 80%;
+    text-align: center;
+}
+.img-morg {
+    margin-bottom: 50px;
+    width: 820px;
+}
+
+/* swiper */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+.slide-1 {
+    background-image: url("sozai/works/ukyo1.jpg");
+}
+.slide-2 {
+    background-image: url("sozai/works/ukyo2.jpg");
+}
+.slide-3 {
+    background-image: url("sozai/works/ukyo3-right.jpg");
+}
+.slide-4 {
+    background-image: url("sozai/works/ukyo3-left.jpg");
+}
+/* //swiper */
+
+/*footer*/
+footer {
+    text-align: center;
+    font-size: 13px;
+    padding-bottom:10px;
+    margin: 20px 40px;
+}
